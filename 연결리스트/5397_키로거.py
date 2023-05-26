@@ -19,8 +19,6 @@ for i in range(0,n):
                 left.append(right.pop())
         else:
             left.append(j)
-        print(left)
-        print(right)
     left.extend(reversed(right))
     print(''.join(left))
 
